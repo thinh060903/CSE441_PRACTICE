@@ -17,8 +17,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
@@ -38,8 +38,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
@@ -57,8 +57,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
@@ -74,28 +74,56 @@
                 android:ems="10" />
         </LinearLayout>
 
-        <Button
-            android:id="@+id/btncong"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TỔNG" />
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
 
-        <Button
-            android:id="@+id/btntru"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="HIỆU" />
+            <Button
+                android:id="@+id/btncong"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TỔNG"
+                android:layout_margin="8dp"
+                android:minWidth="100dp"
+                android:padding="4dp"
+                android:backgroundTint="#6A5ACD" />
 
-        <Button
-            android:id="@+id/btnnhan"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TÍCH" />
+            <Button
+                android:id="@+id/btntru"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="HIỆU"
+                android:layout_margin="8dp"
+                android:minWidth="100dp"
+                android:padding="4dp"
+                android:backgroundTint="#6A5ACD" />
 
-        <Button
-            android:id="@+id/btnchia"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="THƯƠNG" />
+            <Button
+                android:id="@+id/btnnhan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TÍCH"
+                android:layout_margin="8dp"
+                android:minWidth="100dp"
+                android:padding="4dp"
+                android:backgroundTint="#6A5ACD" />
+
+            <Button
+                android:id="@+id/btnchia"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="THƯƠNG"
+                android:layout_margin="8dp"
+                android:minWidth="100dp"
+                android:padding="4dp"
+                android:backgroundTint="#6A5ACD" />
+        </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
