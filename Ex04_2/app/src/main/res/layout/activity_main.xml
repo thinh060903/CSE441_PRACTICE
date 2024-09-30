@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TableRow android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:text="Chương trình tính chỉ số BMI"
+            android:textColor="#FFB300"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập Tên:" />
+        <EditText
+            android:id="@+id/edtten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên của bạn" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chiều Cao:" />
+
+        <EditText
+            android:id="@+id/edtchieucao"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Nhập chiều cao (m)"
+            android:inputType="numberDecimal" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cân Nặng:" />
+        <EditText
+            android:id="@+id/edtcannang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập cân nặng (kg)"
+            android:inputType="numberDecimal" />
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content">
+
+        <Button
+            android:id="@+id/btnBMI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:gravity="center"
+            android:text="Tính BMI" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI = " />
+        <EditText
+            android:id="@+id/edtBMI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chuẩn đoán:" />
+        <EditText
+            android:id="@+id/edtChuanDoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false" />
+    </TableRow>
+</TableLayout>
