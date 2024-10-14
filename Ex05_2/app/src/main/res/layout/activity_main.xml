@@ -1,0 +1,92 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="10dp"
+    android:stretchColumns="1">
+
+    <TableRow>
+
+        <TextView
+            android:layout_span="2"
+            android:gravity="center"
+            android:text="Giải phương trình bậc 2"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập a:" />
+
+        <EditText
+            android:id="@+id/edta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập b:" />
+
+        <EditText
+            android:id="@+id/edtb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập c:" />
+
+        <EditText
+            android:id="@+id/edtc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btntieptuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiếp tục" />
+
+        <Button
+            android:id="@+id/btngiaipt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giải PT" />
+
+        <Button
+            android:id="@+id/btnthoat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thoát" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtkq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:text="Kết quả"
+            android:textSize="18dp" />
+    </TableRow>
+
+</TableLayout>

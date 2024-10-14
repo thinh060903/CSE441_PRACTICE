@@ -1,0 +1,24 @@
+[
+  {
+    "id": "B27DCCN100",
+    "fullName": "Mai Thị Hoa",
+    "birthDate": "10/10/2009",
+    "email": "hoamai@xmail.com",
+    "address": "Nghệ An",
+    "major": "CNTT",
+    "gpa": 3.25,
+    "year": 2,
+    "gender": "Nữ"
+  },
+  {
+    "id": "B28DCCN101",
+    "fullName": "Nguyễn Ngọc Mỹ Linh",
+    "birthDate": "15/05/2009",
+    "email": "linhngoc@xmail.com",
+    "address": "Hà Nội",
+    "major": "CNTT",
+    "gpa": 3.75,
+    "year": 3,
+    "gender": "Nữ"
+  }
+]
