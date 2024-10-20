@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvYeuCauKQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="125dp"
+        android:text="Yêu cầu kết quả"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvYeuCauKQ"
+        android:layout_marginTop="17dp"
+        android:hint="Nhập A" />
+
+    <EditText
+        android:id="@+id/edtB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập B"
+        android:layout_below="@id/edtA" />
+
+    <Button
+        android:id="@+id/btnrequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtKQ"
+        android:layout_marginTop="22dp"
+        android:text="Yêu cầu kết quả" />
+
+    <TextView
+        android:id="@+id/tvKQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtB"
+        android:layout_marginTop="10dp"
+        android:text="Kết quả:" />
+
+    <EditText
+        android:id="@+id/edtKQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:layout_below="@id/tvKQ" />
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvXuLyKQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="16dp"
+        android:text="Xử lý Kết quả"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtAA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhận A"
+        android:focusable="false"
+        android:layout_below="@id/tvXuLyKQ" />
+
+
+    <EditText
+        android:id="@+id/edtBB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhận B"
+        android:focusable="false"
+        android:layout_below="@id/edtAA" />
+
+    <Button
+        android:id="@+id/btnsendtong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtBB"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="143dp"
+        android:text="Trả Về Tổng" />
+
+    <Button
+        android:id="@+id/btnsendhieu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnsendtong"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="144dp"
+        android:text="Trả Về Hiệu" />
+</RelativeLayout>
